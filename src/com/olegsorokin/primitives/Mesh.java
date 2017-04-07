@@ -3,36 +3,36 @@ package com.olegsorokin.primitives;
 public class Mesh {
 
 	private String name;
-	private VectorT[] vertices;
-	private VectorT position;
-	private VectorT rotation;
+	private Vector[] vertices;
+	private Vector position;
+	private Vector rotation;
 	
 	public Mesh(String name, int verticesCount) {
 		this.setName(name);
-		this.setVertices(new VectorT[verticesCount]);
+		this.setVertices(new Vector[verticesCount]);
 	}
 
-	public VectorT[] getVertices() {
+	public Vector[] getVertices() {
 		return vertices;
 	}
 
-	public void setVertices(VectorT[] vertices) {
+	public void setVertices(Vector[] vertices) {
 		this.vertices = vertices;
 	}
 
-	public VectorT getPosition() {
+	public Vector getPosition() {
 		return position;
 	}
 
-	public void setPosition(VectorT position) {
+	public void setPosition(Vector position) {
 		this.position = position;
 	}
 
-	public VectorT getRotation() {
+	public Vector getRotation() {
 		return rotation;
 	}
 
-	public void setRotation(VectorT rotation) {
+	public void setRotation(Vector rotation) {
 		this.rotation = rotation;
 	}
 

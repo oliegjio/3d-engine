@@ -9,6 +9,8 @@ import java.awt.Graphics;
 
 public class TrivialSketcher extends JXPanel {
 
+	private static final long serialVersionUID = 1L;
+	
 	private Point lastPoint;
 	
 	public TrivialSketcher() {
@@ -17,6 +19,7 @@ public class TrivialSketcher extends JXPanel {
 				lastPoint = new Point(event.getX(), event.getY());
 			}
 		});
+		
 		addMouseMotionListener(new MouseMotionAdapter() {
 			public void mouseDragged(MouseEvent event) {
 				Graphics graphics = getGraphics();

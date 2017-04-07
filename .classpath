@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="lib" path="C:/Users/winie/.gradle/caches/modules-2/files-2.1/org.swinglabs/swingx-core/1.6.2-2/4475f362eafad890321631daa3d56f0f55e04edf/swingx-core-1.6.2-2.jar" sourcepath="C:/Users/winie/.gradle/caches/modules-2/files-2.1/org.swinglabs/swingx-core/1.6.2-2/5897f2c5a38f02647ec9e154cb75638226ca93be/swingx-core-1.6.2-2-sources.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="C:/Users/Олег/.gradle/caches/modules-2/files-2.1/org.swinglabs/swingx-core/1.6.2-2/4475f362eafad890321631daa3d56f0f55e04edf/swingx-core-1.6.2-2.jar" sourcepath="C:/Users/Олег/.gradle/caches/modules-2/files-2.1/org.swinglabs/swingx-core/1.6.2-2/5897f2c5a38f02647ec9e154cb75638226ca93be/swingx-core-1.6.2-2-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

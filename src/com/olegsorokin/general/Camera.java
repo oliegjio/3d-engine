@@ -1,29 +1,29 @@
 package com.olegsorokin.general;
 
-import com.olegsorokin.primitives.VectorT;
+import com.olegsorokin.primitives.Vector;
 
 public class Camera {
 
-	private VectorT position;
-	private VectorT target;
+	private Vector position;
+	private Vector target;
 	
 	public Camera() {
 		
 	}
 	
-	public void setPosition(VectorT position) {
+	public void setPosition(Vector position) {
 		this.position = position;
 	}
 	
-	public VectorT getPosition() {
+	public Vector getPosition() {
 		return this.position;
 	}
 	
-	public void setTarget(VectorT target) {
+	public void setTarget(Vector target) {
 		this.target = target;
 	}
 	
-	public VectorT getTarget() {
+	public Vector getTarget() {
 		return this.target;
 	}
 	
