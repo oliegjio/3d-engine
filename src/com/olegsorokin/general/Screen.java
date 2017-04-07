@@ -12,8 +12,8 @@ public class Screen extends JXPanel {
 	}
 	
 	@Override
-	public void paintComponent(Graphics graphics) {
-		super.paintComponent(graphics);
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
 	}
 
 }

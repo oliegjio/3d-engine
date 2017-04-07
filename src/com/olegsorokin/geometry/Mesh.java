@@ -1,23 +1,20 @@
-package com.olegsorokin.primitives;
+package com.olegsorokin.geometry;
 
 public class Mesh {
 
 	private String name;
-	private Vector[] vertices;
+	private Line[] ridges;
 	private Vector position;
 	private Vector rotation;
 	
-	public Mesh(String name, int verticesCount) {
-		this.setName(name);
-		this.setVertices(new Vector[verticesCount]);
+	public Mesh(String name, int ridgesCount) {
+		this.name = name;
+		this.ridges = new Line[ridgesCount];
 	}
-
-	public Vector[] getVertices() {
-		return vertices;
-	}
-
-	public void setVertices(Vector[] vertices) {
-		this.vertices = vertices;
+	
+	public Mesh(String name, Line[] ridges) {
+		this.name = name;
+		this.ridges = ridges;
 	}
 
 	public Vector getPosition() {
@@ -42,6 +39,16 @@ public class Mesh {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+
+	public Line[] getRidges() {
+		return ridges;
+	}
+
+
+	public void setRidges(Line[] ridges) {
+		this.ridges = ridges;
 	}
 	
 }

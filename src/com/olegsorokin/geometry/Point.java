@@ -1,25 +1,21 @@
-package com.olegsorokin.primitives;
+package com.olegsorokin.geometry;
 
-public class Vector {
+public class Point {
 
 	private float x;
 	private float y;
 	private float z;
 	
-	public Vector() {
+	public Point() {
 		this.setX(0);
 		this.setY(0);
 		this.setZ(0);
 	}
 	
-	public Vector(float x, float y, float z) {
+	public Point(float x, float y, float z) {
 		this.setX(x);
 		this.setY(y);
 		this.setZ(z);
-	}
-	
-	public Vector multiply(Vector vector) {
-		return vector;
 	}
 
 	public float getX() {

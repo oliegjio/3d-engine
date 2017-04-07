@@ -1,6 +1,6 @@
-package com.olegsorokin.primitives;
+package com.olegsorokin.geometry;
 
-import com.olegsorokin.primitives.Point;
+import com.olegsorokin.geometry.Point;
 
 public class Line {
 

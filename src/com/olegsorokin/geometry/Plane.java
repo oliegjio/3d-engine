@@ -1,7 +1,7 @@
-package com.olegsorokin.primitives;
+package com.olegsorokin.geometry;
 
-import com.olegsorokin.primitives.Point;
-import com.olegsorokin.primitives.Vector;
+import com.olegsorokin.geometry.Point;
+import com.olegsorokin.geometry.Vector;
 
 public class Plane {
 	

@@ -1,6 +1,6 @@
 package com.olegsorokin.general;
 
-import com.olegsorokin.primitives.Vector;
+import com.olegsorokin.geometry.Vector;
 
 public class Camera {
 

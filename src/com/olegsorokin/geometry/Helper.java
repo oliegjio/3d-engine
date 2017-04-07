@@ -1,8 +1,8 @@
-package com.olegsorokin.primitives;
+package com.olegsorokin.geometry;
 
-import com.olegsorokin.primitives.Plane;
-import com.olegsorokin.primitives.Line;
-import com.olegsorokin.primitives.Point;
+import com.olegsorokin.geometry.Line;
+import com.olegsorokin.geometry.Plane;
+import com.olegsorokin.geometry.Point;
 
 public class Helper {
 
