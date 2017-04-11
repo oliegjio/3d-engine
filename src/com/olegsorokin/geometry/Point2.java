@@ -1,21 +1,18 @@
 package com.olegsorokin.geometry;
 
-public class Point {
+public class Point2 {
 
 	private float x;
 	private float y;
-	private float z;
 	
-	public Point() {
+	public Point2() {
 		this.setX(0);
 		this.setY(0);
-		this.setZ(0);
 	}
 	
-	public Point(float x, float y, float z) {
+	public Point2(float x, float y) {
 		this.setX(x);
 		this.setY(y);
-		this.setZ(z);
 	}
 
 	public float getX() {
@@ -34,12 +31,5 @@ public class Point {
 		this.y = y;
 	}
 
-	public float getZ() {
-		return z;
-	}
-
-	public void setZ(float z) {
-		this.z = z;
-	}
 	
 }

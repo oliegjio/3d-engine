@@ -1,30 +1,41 @@
 package com.olegsorokin.general;
 
-import com.olegsorokin.geometry.Vector;
+import com.olegsorokin.geometry.Vector3;
+import com.olegsorokin.geometry.Point3;
+import com.olegsorokin.geometry.Plane;
+import com.olegsorokin.geometry.Rect;
 
 public class Camera {
 
-	private Vector position;
-	private Vector target;
+	private Point3 position;
+	private Vector3 target;
+	private Plane plane;
+	private float distance;
+	private Rect bounds;
 	
-	public Camera() {
-		
-	}
-	
-	public void setPosition(Vector position) {
+	public Camera(Point3 position, Vector3 target, float distance, Rect bounds) {
 		this.position = position;
+		this.target = target;
+		this.distance = distance;
+		this.bounds = bounds;
+		
+		Point3 planePosition = position.addVector(target);
+		this.plane = new Plane(planePosition, target);
 	}
 	
-	public Vector getPosition() {
+	public Point3 getPosition() {
 		return this.position;
 	}
 	
-	public void setTarget(Vector target) {
-		this.target = target;
-	}
-	
-	public Vector getTarget() {
+	public Vector3 getTarget() {
 		return this.target;
 	}
+
+	public Plane getPlane() {
+		return plane;
+	}
+	
+	public float getDistance() { return this.distance; }
+	public Rect getBounds() { return this.bounds; }
 	
 }

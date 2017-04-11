@@ -1,33 +1,33 @@
 package com.olegsorokin.geometry;
 
-import com.olegsorokin.geometry.Point;
-import com.olegsorokin.geometry.Vector;
+import com.olegsorokin.geometry.Point3;
+import com.olegsorokin.geometry.Vector3;
 
 public class Plane {
 	
-	private Point position;
-	private Vector normal;
+	private Point3 position;
+	private Vector3 normal;
 	
-	public Plane(Point position, Vector normal) {
+	public Plane(Point3 position, Vector3 normal) {
 		// Plane equation:
 		// A(x - x0) + B(y - y0) + C(z - z0) = 0
 		this.setPosition(position);
 		this.setNormal(normal);
 	}
 
-	public Point getPosition() {
+	public Point3 getPosition() {
 		return position;
 	}
 
-	public void setPosition(Point position) {
+	public void setPosition(Point3 position) {
 		this.position = position;
 	}
 
-	public Vector getNormal() {
+	public Vector3 getNormal() {
 		return normal;
 	}
 
-	public void setNormal(Vector normal) {
+	public void setNormal(Vector3 normal) {
 		this.normal = normal;
 	}
 	
